@@ -1,0 +1,171 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.web", "Ecommerce.web\Ecommerce.web.csproj", "{F798EAC6-C9BC-4BCC-BD85-007DA7CAE00D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.web.Tests", "Ecommerce.web.Tests\Ecommerce.web.Tests.csproj", "{A5D3B401-0297-409C-8A39-4B1E1F00BE2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{85E6BB61-7E39-4657-8B78-F92C4567901E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{9C7848C6-4A3F-4456-B280-82311F7CC075}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{E04706C3-69E4-4897-B4DD-8D9F980ACE8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{28B2ABB1-EE77-4309-AFFA-50982FF3EFC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FC58F5CE-528F-49C8-9B68-23E12ACACE97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StartUp", "StartUp", "{310313FB-8567-409B-A477-DFA2CE370BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.App", "Ecommerce.App\Ecommerce.App.csproj", "{8696CD88-B07B-4954-8AF6-4A5267ABD605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.App.Tests", "Ecommerce.App.Tests\Ecommerce.App.Tests.csproj", "{C7F922D7-1B18-4EDC-B6EC-6F79E3B205CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Domain", "Ecommerce.Domain\Ecommerce.Domain.csproj", "{2A9E3772-9ADB-4365-BA0E-E377184DDBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Domain.Tests", "Ecommerce.Domain.Tests\Ecommerce.Domain.Tests.csproj", "{68729D2D-21E5-4803-ACC4-5E5B8656435A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Helpers", "Ecommerce.Helpers\Ecommerce.Helpers.csproj", "{E52FC451-01E7-496A-927F-48F0275856F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Helpers.Tests", "Ecommerce.Helpers.Tests\Ecommerce.Helpers.Tests.csproj", "{ACC4205D-53AB-4EFB-9995-ED8643BFFD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Repositories", "Ecommerce.Repositories\Ecommerce.Repositories.csproj", "{B1C8B47F-7B58-45D9-A6C9-183D9B39D1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Repositories.Tests", "Ecommerce.Repositories.Tests\Ecommerce.Repositories.Tests.csproj", "{25155EAB-2B86-4B9C-8B0A-24074BB1BD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.StartUp", "Ecommerce.StartUp\Ecommerce.StartUp.csproj", "{0B8DEE4C-24E6-4B09-B460-9E30E8340AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.StartUp.Tests", "Ecommerce.StartUp.Tests\Ecommerce.StartUp.Tests.csproj", "{ADE13FE6-A133-4F4E-A192-67ECED0DC3F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F798EAC6-C9BC-4BCC-BD85-007DA7CAE00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F798EAC6-C9BC-4BCC-BD85-007DA7CAE00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F798EAC6-C9BC-4BCC-BD85-007DA7CAE00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F798EAC6-C9BC-4BCC-BD85-007DA7CAE00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D3B401-0297-409C-8A39-4B1E1F00BE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D3B401-0297-409C-8A39-4B1E1F00BE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D3B401-0297-409C-8A39-4B1E1F00BE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D3B401-0297-409C-8A39-4B1E1F00BE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8696CD88-B07B-4954-8AF6-4A5267ABD605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8696CD88-B07B-4954-8AF6-4A5267ABD605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8696CD88-B07B-4954-8AF6-4A5267ABD605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8696CD88-B07B-4954-8AF6-4A5267ABD605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F922D7-1B18-4EDC-B6EC-6F79E3B205CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F922D7-1B18-4EDC-B6EC-6F79E3B205CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F922D7-1B18-4EDC-B6EC-6F79E3B205CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F922D7-1B18-4EDC-B6EC-6F79E3B205CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9E3772-9ADB-4365-BA0E-E377184DDBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9E3772-9ADB-4365-BA0E-E377184DDBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9E3772-9ADB-4365-BA0E-E377184DDBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9E3772-9ADB-4365-BA0E-E377184DDBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68729D2D-21E5-4803-ACC4-5E5B8656435A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68729D2D-21E5-4803-ACC4-5E5B8656435A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68729D2D-21E5-4803-ACC4-5E5B8656435A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68729D2D-21E5-4803-ACC4-5E5B8656435A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52FC451-01E7-496A-927F-48F0275856F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52FC451-01E7-496A-927F-48F0275856F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52FC451-01E7-496A-927F-48F0275856F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52FC451-01E7-496A-927F-48F0275856F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC4205D-53AB-4EFB-9995-ED8643BFFD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC4205D-53AB-4EFB-9995-ED8643BFFD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC4205D-53AB-4EFB-9995-ED8643BFFD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC4205D-53AB-4EFB-9995-ED8643BFFD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C8B47F-7B58-45D9-A6C9-183D9B39D1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C8B47F-7B58-45D9-A6C9-183D9B39D1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C8B47F-7B58-45D9-A6C9-183D9B39D1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C8B47F-7B58-45D9-A6C9-183D9B39D1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25155EAB-2B86-4B9C-8B0A-24074BB1BD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25155EAB-2B86-4B9C-8B0A-24074BB1BD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25155EAB-2B86-4B9C-8B0A-24074BB1BD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25155EAB-2B86-4B9C-8B0A-24074BB1BD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8DEE4C-24E6-4B09-B460-9E30E8340AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8DEE4C-24E6-4B09-B460-9E30E8340AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8DEE4C-24E6-4B09-B460-9E30E8340AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8DEE4C-24E6-4B09-B460-9E30E8340AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE13FE6-A133-4F4E-A192-67ECED0DC3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE13FE6-A133-4F4E-A192-67ECED0DC3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE13FE6-A133-4F4E-A192-67ECED0DC3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE13FE6-A133-4F4E-A192-67ECED0DC3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F798EAC6-C9BC-4BCC-BD85-007DA7CAE00D} = {85E6BB61-7E39-4657-8B78-F92C4567901E}
+		{A5D3B401-0297-409C-8A39-4B1E1F00BE2D} = {85E6BB61-7E39-4657-8B78-F92C4567901E}
+		{8696CD88-B07B-4954-8AF6-4A5267ABD605} = {9C7848C6-4A3F-4456-B280-82311F7CC075}
+		{C7F922D7-1B18-4EDC-B6EC-6F79E3B205CB} = {9C7848C6-4A3F-4456-B280-82311F7CC075}
+		{2A9E3772-9ADB-4365-BA0E-E377184DDBD3} = {FC58F5CE-528F-49C8-9B68-23E12ACACE97}
+		{68729D2D-21E5-4803-ACC4-5E5B8656435A} = {FC58F5CE-528F-49C8-9B68-23E12ACACE97}
+		{E52FC451-01E7-496A-927F-48F0275856F0} = {28B2ABB1-EE77-4309-AFFA-50982FF3EFC5}
+		{ACC4205D-53AB-4EFB-9995-ED8643BFFD34} = {28B2ABB1-EE77-4309-AFFA-50982FF3EFC5}
+		{B1C8B47F-7B58-45D9-A6C9-183D9B39D1A3} = {E04706C3-69E4-4897-B4DD-8D9F980ACE8A}
+		{25155EAB-2B86-4B9C-8B0A-24074BB1BD55} = {E04706C3-69E4-4897-B4DD-8D9F980ACE8A}
+		{0B8DEE4C-24E6-4B09-B460-9E30E8340AC3} = {310313FB-8567-409B-A477-DFA2CE370BB3}
+		{ADE13FE6-A133-4F4E-A192-67ECED0DC3F3} = {310313FB-8567-409B-A477-DFA2CE370BB3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {374DA17F-4C5A-4392-92C0-637F22FC6CAA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jiraspiom.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Ecommerce.web.Tests\\Ecommerce.web.Tests.csproj
+		SccProjectTopLevelParentUniqueName1 = Ecommerce.sln
+		SccProjectName1 = Ecommerce.web.Tests
+		SccLocalPath1 = Ecommerce.web.Tests
+		SccProjectUniqueName2 = Ecommerce.web\\Ecommerce.web.csproj
+		SccProjectTopLevelParentUniqueName2 = Ecommerce.sln
+		SccProjectName2 = Ecommerce.web
+		SccLocalPath2 = Ecommerce.web
+		SccProjectUniqueName3 = Ecommerce.App\\Ecommerce.App.csproj
+		SccProjectTopLevelParentUniqueName3 = Ecommerce.sln
+		SccProjectName3 = Ecommerce.App
+		SccLocalPath3 = Ecommerce.App
+		SccProjectUniqueName4 = Ecommerce.App.Tests\\Ecommerce.App.Tests.csproj
+		SccProjectTopLevelParentUniqueName4 = Ecommerce.sln
+		SccProjectName4 = Ecommerce.App.Tests
+		SccLocalPath4 = Ecommerce.App.Tests
+		SccProjectUniqueName5 = Ecommerce.Domain\\Ecommerce.Domain.csproj
+		SccProjectTopLevelParentUniqueName5 = Ecommerce.sln
+		SccProjectName5 = Ecommerce.Domain
+		SccLocalPath5 = Ecommerce.Domain
+		SccProjectUniqueName6 = Ecommerce.Domain.Tests\\Ecommerce.Domain.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = Ecommerce.sln
+		SccProjectName6 = Ecommerce.Domain.Tests
+		SccLocalPath6 = Ecommerce.Domain.Tests
+		SccProjectUniqueName7 = Ecommerce.Helpers\\Ecommerce.Helpers.csproj
+		SccProjectTopLevelParentUniqueName7 = Ecommerce.sln
+		SccProjectName7 = Ecommerce.Helpers
+		SccLocalPath7 = Ecommerce.Helpers
+		SccProjectUniqueName8 = Ecommerce.Helpers.Tests\\Ecommerce.Helpers.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = Ecommerce.sln
+		SccProjectName8 = Ecommerce.Helpers.Tests
+		SccLocalPath8 = Ecommerce.Helpers.Tests
+		SccProjectUniqueName9 = Ecommerce.Repositories\\Ecommerce.Repositories.csproj
+		SccProjectTopLevelParentUniqueName9 = Ecommerce.sln
+		SccProjectName9 = Ecommerce.Repositories
+		SccLocalPath9 = Ecommerce.Repositories
+		SccProjectUniqueName10 = Ecommerce.Repositories.Tests\\Ecommerce.Repositories.Tests.csproj
+		SccProjectTopLevelParentUniqueName10 = Ecommerce.sln
+		SccProjectName10 = Ecommerce.Repositories.Tests
+		SccLocalPath10 = Ecommerce.Repositories.Tests
+		SccProjectUniqueName11 = Ecommerce.StartUp\\Ecommerce.StartUp.csproj
+		SccProjectTopLevelParentUniqueName11 = Ecommerce.sln
+		SccProjectName11 = Ecommerce.StartUp
+		SccLocalPath11 = Ecommerce.StartUp
+		SccProjectUniqueName12 = Ecommerce.StartUp.Tests\\Ecommerce.StartUp.Tests.csproj
+		SccProjectTopLevelParentUniqueName12 = Ecommerce.sln
+		SccProjectName12 = Ecommerce.StartUp.Tests
+		SccLocalPath12 = Ecommerce.StartUp.Tests
+	EndGlobalSection
+EndGlobal
