@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using MVCFilme.Models;
 
 namespace MVCFilme
 {
@@ -33,6 +35,9 @@ namespace MVCFilme
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<MVCFilmeContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MVCFilmeContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
